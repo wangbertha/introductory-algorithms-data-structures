@@ -1,8 +1,4 @@
-function Node() {
-    let value = null;
-    let nextNode = null;
-    return { value, nextNode };
-}
+import { Node } from './Node.js';
 
 function LinkedList() {
     let headNode = Node();
