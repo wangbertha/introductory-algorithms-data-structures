@@ -27,11 +27,11 @@ function LinkedList() {
     }
 
     const head = () => {
-        return headNode.value;
+        return headNode;
     }
 
     const tail = () => {
-        return tailNode.value;
+        return tailNode;
     }
 
     const prepend = (value) => {
