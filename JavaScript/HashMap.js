@@ -13,14 +13,6 @@ function HashMap() {
         }
     }
 
-    function cap() {
-        return capacity;
-    }
-
-    function arrayy() {
-        return arr;
-    }
-
     function length() {
         return size;
     }
@@ -175,7 +167,7 @@ function HashMap() {
         return entriesArr;
     }
 
-    return { length, clear, set, keys, values, entries, get, has, remove, cap, arrayy };
+    return { length, clear, set, keys, values, entries, get, has, remove };
 }
 
 export { HashMap };
