@@ -1,6 +1,7 @@
 import { BinarySearchTree } from './JavaScript/BinarySearchTree.js';
 import { HashMap } from './JavaScript/HashMap.js';
 import { LinkedList } from './JavaScript/LinkedList.js';
+import { KnightsTravails } from "./knight.js";
 
 // Tests for JavaScript Linked List
 // const list = LinkedList();
@@ -47,6 +48,11 @@ import { LinkedList } from './JavaScript/LinkedList.js';
 
 const bst = BinarySearchTree([1, 7, 4, 23, 8, 9, 4, 3, 5, 10, 9, 67, 63, 324, 100]);
 
+// Tests for JavaScript Knights Travails
 bst.prettyPrint(bst.getRoot())
 bst.rebalance();
 bst.prettyPrint(bst.getRoot())
+
+const kt = KnightsTravails();
+console.log(kt.knightMoves([1,1],[1,1]))
+console.log(kt.knightMoves([1,2],[7,7]))
