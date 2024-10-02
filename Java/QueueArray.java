@@ -21,30 +21,37 @@ public class QueueArray {
         size++;
     }
 
-    // returns value and removes least recently added element
+    // returns value of and removes least recently added element
     public Object dequeue() {
-        if(empty()) return null;
-        Object item = arr[size-1];
-        arr[size-1] = null;
+        if (empty())
+            return null;
+        Object item = arr[0];
+        for (int i = 0; i < size - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[size - 1] = null;
         size--;
         return item;
     }
 
     // returns true if the queue is empty, false if not
     public boolean empty() {
-        if(size==0) return true;
+        if (size == 0)
+            return true;
         return false;
     }
 
     // returns true if the queue array is full, false if not
     public boolean full() {
-        if(size==capacity) return true;
+        if (size == capacity)
+            return true;
         return false;
     }
 
     public String toString() {
         String str = "";
-        for(int i=0; i<size; i++) str = str + arr[i] + " ";
+        for (int i = 0; i < size; i++)
+            str = str + arr[i] + " ";
         return str;
     }
 
