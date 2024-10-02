@@ -1,4 +1,4 @@
-# Introductory Algorithms in JavaScript
+# Introductory Algorithms in Java
 
 BinarySearch: With iterative approach
 
