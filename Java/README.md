@@ -1,4 +1,4 @@
-# Introductory Algorithms in Java
+# Introductory Data Structures in Java
 
 BinarySearch: With iterative approach
 
