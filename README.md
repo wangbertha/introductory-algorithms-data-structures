@@ -1,6 +1,6 @@
-# Introductory Algorithms
+# Introductory Algorithms and Data Structures
 
-My implementation of introductory computer science algorithms. Currently in Java and JavaScript.
+My implementation of select introductory data structures in Java and JavaScript.
 
 ```bash
 ├── Java
